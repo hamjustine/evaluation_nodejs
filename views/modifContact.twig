@@ -1,0 +1,18 @@
+
+    <div class="row">
+        <div class="col-md-4 trending">
+            <form  id="modifContact" method="PUT">
+                <input class="form-control mr-sm-2" id="firstname" name="firstname" type="text" placeholder="prénom" value="{{contact.firstname}}" required pattern="\w{3}.*">
+                <input class="form-control mr-sm-2" id="lastname" name="lastname" value="{{contact.lastname}}" placeholder="nom" >
+                <input class="form-control mr-sm-2" id="avatar" name="avatar" value="{{contact.avatar}}" placeholder="url" >
+                <input class="form-control mr-sm-2" id="description" name="description" value="{{contact.description}}" placeholder="description" >
+                <input class="form-control mr-sm-2" id="mail" name="mail" value="{{contact.mail}}" placeholder="mail" >
+                <input class="form-control mr-sm-2" id="mail2" name="mail2" value="{{contact.mail2}}" placeholder="mail 2" >
+                <input class="form-control mr-sm-2" id="telephone" name="telephone" value="{{contact.telephone}}" placeholder="telephone">
+                <input class="form-control mr-sm-2" id="telephone2" name="telephone2" value="{{contact.telephone2}}" placeholder="telephone 2">
+                <input class="form-control mr-sm-2" id="_id" name="_id" value="{{contact._id}}" style="display: none;">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">modifier</button>
+            </form>
+        </div>
+
+    </div>
